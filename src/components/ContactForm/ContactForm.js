@@ -23,7 +23,6 @@ export class ContactForm  extends Component {
 
     reset = () => {
         this.setState({
-            contacts: [],
             name: '',
             number: '',
         })
